@@ -31,7 +31,7 @@
 		0315720A9FA7BEC5450C22A9 /* Pods-CarService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarService_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CarService_Tests/Pods-CarService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		095293463DCB48FFB37C6057 /* Pods_CarService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarService_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24057FF4C672605360CED6C7 /* Pods-CarService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarService_Example.debug.xcconfig"; path = "Target Support Files/Pods-CarService_Example/Pods-CarService_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4150876446BE437E5B2876B8 /* CarService.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CarService.podspec; path = ../CarService.podspec; sourceTree = "<group>"; };
+		4150876446BE437E5B2876B8 /* CarService.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CarService.podspec; path = ../CarService.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5C37ADA17ABA26E17DF2F1B6 /* Pods-CarService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarService_Example.release.xcconfig"; path = "Target Support Files/Pods-CarService_Example/Pods-CarService_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CarService_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarService_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6B4541C1EB2F955791E2E0EA /* Pods_CarService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarService_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		767811D3D3F88CEC978BA1D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		83698BC5121CC7DA92566560 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		767811D3D3F88CEC978BA1D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		83698BC5121CC7DA92566560 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8D8F3D5CB195D60854F91A2F /* Pods-CarService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarService_Tests.release.xcconfig"; path = "Target Support Files/Pods-CarService_Tests/Pods-CarService_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +86,6 @@
 				0315720A9FA7BEC5450C22A9 /* Pods-CarService_Tests.debug.xcconfig */,
 				8D8F3D5CB195D60854F91A2F /* Pods-CarService_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				62443BF4282E85449AAF49A0 /* [CP] Embed Pods Frameworks */,
+				4C2FA0A86246C6CEE87C114F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -262,7 +262,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		62443BF4282E85449AAF49A0 /* [CP] Embed Pods Frameworks */ = {
+		4C2FA0A86246C6CEE87C114F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
