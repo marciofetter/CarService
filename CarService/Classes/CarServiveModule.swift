@@ -13,6 +13,7 @@ public class CarServiceModule {
     
     public init(client: ServiceCarsProtocol = ServiceCars()) {
         self.client = client
+        // teste flow
     }
     
     public func getCars(completionHandler: (Result<[CarModel], MyError>) -> Void) {
